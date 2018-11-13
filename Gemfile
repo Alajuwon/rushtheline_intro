@@ -44,6 +44,9 @@ gem 'bootstrap-sass'
 gem 'bootstrap', '>= 4.1.2'
 gem 'hirb' 
 gem 'capybara', '~> 2.15', '>= 2.15.4'
+gem "rails-html-sanitizer", ">= 1.0.4"
+gem "ffi", ">= 1.9.24"
+gem "loofah", ">= 2.2.3"
 
 gem 'better_errors' , group: :development
 
