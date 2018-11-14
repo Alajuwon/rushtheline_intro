@@ -46,7 +46,8 @@ gem 'bootstrap', '>= 4.1.2'
 gem 'hirb' 
 gem 'capybara', '~> 2.15', '>= 2.15.4'
 gem 'paperclip'
-
+gem 'fog'
+gem 'figaro'
 
 
 gem 'better_errors' , group: :development
