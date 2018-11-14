@@ -13,3 +13,7 @@ module RushthelineIntro
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+# Enable the asset pipeline
+config.assets.enabled = true
+config.assets.initialize_on_precompile = false
