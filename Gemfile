@@ -51,6 +51,12 @@ gem 'paperclip'
 
 gem 'better_errors' , group: :development
 
+#for our local server:
+group :development do
+   gem 'sqlite3'
+end
+
+
 #for Heroku:
 group :production do
   gem 'pg'
