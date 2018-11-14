@@ -219,7 +219,7 @@ PLATFORMS
 
 DEPENDENCIES
   better_errors
-  bootstrap
+  bootstrap (>= 4.1.2)
   bootstrap-sass
   byebug
   capybara (~> 2.15, >= 2.15.4)
