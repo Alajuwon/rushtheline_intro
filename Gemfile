@@ -45,7 +45,7 @@ gem 'bootstrap-sass'
 gem 'bootstrap', '>= 4.1.2'
 gem 'hirb' 
 gem 'capybara', '~> 2.15', '>= 2.15.4'
-gem 'paperclip'
+gem 'paperclip','~> 5.2.0'
 gem 'fog'
 gem 'figaro'
 
