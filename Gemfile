@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'font-awesome-rails'
 gem 'local_time'
 
+gem 'nio4r', '~> 2.3', '>= 2.3.1'
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick'
 
