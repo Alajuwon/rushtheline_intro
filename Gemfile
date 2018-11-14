@@ -45,6 +45,8 @@ gem 'bootstrap-sass'
 gem 'bootstrap', '>= 4.1.2'
 gem 'hirb' 
 gem 'capybara', '~> 2.15', '>= 2.15.4'
+gem 'paperclip'
+
 
 
 gem 'better_errors' , group: :development
@@ -53,6 +55,7 @@ gem 'better_errors' , group: :development
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'aws-sdk', '~> 2.3'
 end
 
 # Use Capistrano for deployment
