@@ -14,6 +14,5 @@ module RushthelineIntro
   end
 end
 
-# Enable the asset pipeline
 
-config.assets.initialize_on_precompile = false
+

@@ -1,0 +1,87 @@
+
+.background-tintbox{
+	height: 480px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+
+.background-image-section{
+	height: 30rem;
+	background-image: url(image-path('rtl_image1.jpg'));
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	
+}
+
+
+.banner-title{
+	text-align: center;
+	color: #fff;
+	font-size: 5em;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 700;
+	letter-spacing: 7px;
+	position: absolute;
+    top: 3em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rtl-slogan{
+	text-align: center;
+	color: #fff;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 400;
+	letter-spacing: 3px;
+
+}
+
+@media (max-width: 979px) {
+.placeholder{
+	color: #fff;
+	font-weight: 700;
+	font-size: 2em;
+	text-align: center;
+	padding: 185px;
+	font-family: 'Segoe UI', sans-serif;
+}
+}
+
+.info-tag{
+	text-align: center;
+	font-size: 4rem;
+	color: black;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+.explore{
+	font-family: 'Segoe UI', sans-serif;
+	background-color: white;
+    border: none;
+    color: teal;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 4px 2px;
+    border-radius: 10%;
+    border: solid 2px teal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
