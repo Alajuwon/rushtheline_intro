@@ -1,13 +1,13 @@
 
 .background-tintbox{
-	height: 100vh;
+	height: 65vh;
 	width: 100%;
 	background: rgba(0, 0, 0, 0.5);
 }
 
 
 .background-image-section{
-	height: 100vh;
+	height: 65vh;
 	background-image: url(image-path('rtl_image1.jpg'));
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -24,7 +24,7 @@
 	letter-spacing: 7px;
 	word-spacing: 3px;
 	position: absolute;
-    top: 3em;
+    top: 4em;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -169,7 +169,7 @@
 }
 
 .contact-section{
-	background-color: #ed6d03;
+	background-color: #fb5a44;
 	height: 22em;
 }
 
