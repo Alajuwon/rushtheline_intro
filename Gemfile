@@ -42,7 +42,7 @@ gem 'gravatarify', '~> 3.0.0'
 gem 'kaminari' #(scrolling pages)
 
 gem 'bootstrap-sass'
-gem 'bootstrap', '>= 4.1.2'
+gem 'bootstrap', '>= 4.1.3'
 gem 'hirb' 
 gem 'capybara', '~> 2.15', '>= 2.15.4'
 gem 'paperclip','~> 5.2.0'
