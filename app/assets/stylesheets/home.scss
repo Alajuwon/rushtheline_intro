@@ -2,7 +2,7 @@
 .background-tintbox{
 	height: 65vh;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(255,0,0, 0.5);
 }
 
 
@@ -12,6 +12,7 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	overflow: hidden;
 }
 
 
@@ -83,12 +84,9 @@
 }
 
 /*Business proposal section*/
-.business-image-section{
+.business-section{
 	height: 45rem;
-	background-image: url(image-path('rtl_image2'));
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+	background-color: #fc5f23;
 } 
 
 .attention-grabber-section{
@@ -103,14 +101,23 @@
 }
 
 
-.background-tintbox2{
-	height: 45rem;
-	width: 100%;
-	background: rgba(0, 0, 0, 0.8);
+
+
+#busy-row-one{
+	margin-top: 10rem;
 }
 
-#busy-row{
-	margin-top: 9rem;
+
+
+
+#busy-row-two{
+
+}
+
+
+
+#first-cols{
+	border: 1px solid yellow;
 }
 
 .huge{
@@ -119,57 +126,23 @@
 	text-align: center;
 	font-size: 2rem;
 }
-.checkmark__circle {
-  stroke-dasharray: 166;
-  stroke-dashoffset: 166;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-  stroke: #7ac142;
-  fill: none;
-  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+
+#1st-row-busy
+
+
+.email-us-section{
+	background-color: teal;
+	height: 6vh;
 }
 
-.checkmark {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  display: block;
-  stroke-width: 2;
-  stroke: #fff;
-  stroke-miterlimit: 10;
-  margin: 10% auto;
-  box-shadow: inset 0px 0px 0px #7ac142;
-  animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
-}
 
-.checkmark__check {
-  transform-origin: 50% 50%;
-  stroke-dasharray: 48;
-  stroke-dashoffset: 48;
-  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
-}
 
-@keyframes stroke {
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-@keyframes scale {
-  0%, 100% {
-    transform: none;
-  }
-  50% {
-    transform: scale3d(1.1, 1.1, 1);
-  }
-}
-@keyframes fill {
-  100% {
-    box-shadow: inset 0px 0px 0px 30px #7ac142;
-  }
-}
+
+
+
 
 .contact-section{
-	background-color: #fd4437;
+	background-color: #b80720;
 	height: 22em;
 }
 
