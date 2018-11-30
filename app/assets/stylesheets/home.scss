@@ -83,11 +83,11 @@
     border: solid 2px #b80720;
 }
 
-/*Business proposal section*/
+/*------------------Business section starts-------------------------------*/
 .business-section{
 	background-image: url(image-path('rtl_image3.jpg'));
 	background-color: #fff;
-	height: 65vh;
+	height: 80vh;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -124,13 +124,13 @@
 #first-cols{
 	border: 1px solid #fff;
 	border-radius: 3px;
-	height: 5rem;
+	height: 23rem;
 }
 
 #sec-cols{
 	border: 1px solid #fff;
 	border-radius: 3px;
-	height: 5rem;
+	height: 23rem;
 }
 
 .huge{
@@ -139,20 +139,102 @@
 	font-size: 2rem;
 }
 
+.background-tintbox-business{
+	height: 80vh;
+	width: 100%;
+	background: rgba(0,0,0, 0.8);
+}
+
+.key-pic{
+	height: 10em;
+	color: white !important;
+}
+
+
+
+/*--------Team Section Starts Here ------------------------*/
+.team-section{
+	height: 50vh;
+	background-color: #f75231;
+}
+
+.team-name{
+	text-align: center;
+	color: red;
+	font-size: 2em;
+}
+
+.team-title{
+	text-align: center;
+	color: red;
+	font-size: 1em;
+}
+
+.player-1{
+	height: 30em;
+	background-color: w;
+}
+.hexagon {
+  position: relative;
+  width: 150px; 
+  height: 86.60px;
+  background-color: #64C7CC;
+  margin: 43.30px 30px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.85);
+  border-left: solid 5px #333333;
+  border-right: solid 5px #333333;
+  margin-top: -18px;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 106.07px;
+  height: 106.07px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 16.9670px;
+ 
+}
+
+.hexagon:before {
+  top: -53.0330px;
+  border-top: solid 7.0711px #333333;
+  border-right: solid 7.0711px #333333;
+}
+
+.hexagon:after {
+  bottom: -53.0330px;
+  border-bottom: solid 7.0711px #333333;
+  border-left: solid 7.0711px #333333;
+}
+
+/*cover up extra shadows*/
+.hexagon span {
+  display: block;
+  position: absolute;
+  top:2.8867513459481287px;
+  left: 0;
+  width:140px;
+  height:80.8290px;
+  z-index: 2;
+  background: inherit;
+}
+
+
+
+
+/*--------Team Section Ends Here ------------------------*/
+
 
 .email-us-section{
 	height: 50vh;
 	background-color: #fff;
 }
-
-
-.background-tintbox-email{
-	height: 65vh;
-	width: 100%;
-	background: rgba(0,0,0, 0.7);
-}
-
-
 
 
 .contact-section{
