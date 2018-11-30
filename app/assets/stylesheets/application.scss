@@ -24,24 +24,25 @@ body{
     background-color: #fff;
 }
 
-#tip-top-nav{
-    background-color: red;
-    color: #fff !important;
-}
 
 .logo-pic{
     height: 50px;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+    background-color: transparent;
+    text-decoration: none;
+    color: black !important;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    font-size: 2em;
+}
 
-
-
-
-
-
-
-
-
+.navbar-dark .navbar-nav .nav-link:hover{
+    background-color: transparent;
+    text-decoration: underline;
+    color: white !important;
+}
 
 
 
