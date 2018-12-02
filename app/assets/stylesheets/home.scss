@@ -1,4 +1,6 @@
-
+li{
+	list-style: none !important;
+}
 .background-tintbox{
 	height: 65vh;
 	width: 100%;
@@ -183,16 +185,7 @@
 	background-color: #8a1b05;
 	border-radius: 20px;
 }
-.meet-team-stamp{
-	color: black;
-	font-family: 'Segoe UI', sans-serif;
-	font-weight: 400;
-	text-align: center;
-	word-spacing: 5px;
-	letter-spacing: 5px;
-	font-size: 6em;
-	margin-bottom: 1.5em;
-}
+
 .players-sec-row{
 	margin-top: 65px;
 }
