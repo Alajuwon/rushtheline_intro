@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'font-awesome-rails'
+gem 'font-awesome-sass', '~> 5.5.0'
 gem 'local_time'
 gem 'cloudinary'
 
