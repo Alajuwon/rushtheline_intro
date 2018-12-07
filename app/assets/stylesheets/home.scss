@@ -44,6 +44,16 @@ li{
 }
 
 @media (max-width: 979px) {
+.rtl-expo{
+	word-spacing: 2px;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 300;
+	letter-spacing: 3px;
+	font-size: 2em;
+	}
+}
+
+@media (max-width: 979px) {
 .placeholder{
 	color: #fff;
 	font-weight: 700;
