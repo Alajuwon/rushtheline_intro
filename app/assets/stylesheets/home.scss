@@ -37,7 +37,7 @@ li{
 	text-align: center;
 	word-spacing: 2px;
 	font-family: 'Segoe UI', sans-serif;
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 3px;
 	font-size: 3em;
 
@@ -64,13 +64,22 @@ li{
 }
 }
 
+.info-tag-bg{
+	height: 45vh;
+	background-image: url(https://res.cloudinary.com/kingaat7/image/upload/v1545424619/rtl_image4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+
 .info-tag{
 	text-align: center;
-	font-size: 4rem;
-	color: black;
+	font-size: 18rem;
+	color: #b80720;
 	font-family: 'Segoe UI', sans-serif;
-	font-weight: 200;
-	margin-bottom: 4rem;
+	font-weight: 500;
 }
 
 .information-section{
@@ -97,6 +106,7 @@ li{
 	background-position: center center;
 	background-size: cover;
 	overflow: hidden;
+	background-attachment: fixed;
 } 
 
 .attention-grabber-section{
@@ -153,6 +163,9 @@ li{
 	color: white !important;
 }
 
+@media (max-width: 979px) {
+
+}
 
 
 /*--------Team Section Starts Here ------------------------*/
@@ -187,11 +200,11 @@ a:hover {
 }
 .team-members li > div {
 	float: left;
-	width: 25%;
+	width: 24%;
 }
 
 .team-members li:nth-child(2) > div:first-child {
-	margin-left: 25%;
+	margin-left: 24%;
 }
 
 .team-members li:last-child > div:first-child {
@@ -366,7 +379,7 @@ a:hover {
 
 .email-us-section{
 	height: 50vh;
-	background-color: #fff;
+	background-color: #b0aea9;
 }
 
 
