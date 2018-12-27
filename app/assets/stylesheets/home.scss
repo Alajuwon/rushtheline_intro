@@ -4,7 +4,7 @@ li{
 .background-tintbox{
 	height: 65vh;
 	width: 100%;
-	background: rgba(255,0,0, 0.5);
+	background: rgba(0,0,0, 0.5);
 }
 
 
@@ -16,6 +16,18 @@ li{
 	background-size: cover;
 	overflow: hidden;
 }
+
+@media (max-width: 979px) {
+		.background-image-section{
+		height: 30vh;
+		background-image: url(image-path('rtl_image1.jpg'));
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		overflow: hidden;
+	}
+}
+
 
 
 .banner-title{
@@ -32,6 +44,22 @@ li{
     transform: translate(-50%, -50%);
 }
 
+@media (max-width: 979px) {
+		.banner-title{
+		text-align: center;
+		color: #fff;
+		font-size: 2em;
+		font-family: 'Segoe UI', sans-serif;
+		font-weight: 300;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		position: absolute;
+	    top: 7em;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+}
+
 /*----------------Explaination Section ----------------------------------*/
 .rtl-expo{
 	text-align: center;
@@ -45,10 +73,9 @@ li{
 
 @media (max-width: 979px) {
 .rtl-expo{
-	word-spacing: 2px;
 	font-family: 'Segoe UI', sans-serif;
-	font-weight: 300;
-	letter-spacing: 3px;
+	font-weight: 700;
+	letter-spacing: 2px;
 	font-size: 2em;
 	}
 }
@@ -171,7 +198,7 @@ li{
 .background-tintbox-business{
 	height: 80vh;
 	width: 100%;
-	background: rgba(0,0,0, 0.8);
+	background: rgba(0,0,0, 0.6);
 }
 
 .key-pic{
@@ -200,6 +227,10 @@ li{
 	text-align: center;
 	color: #fff;
 	font-size: 2em;
+}
+
+.who-we{
+	font-size: 18px;
 }
 
 a {
