@@ -144,6 +144,9 @@ li{
 	font-weight: bold;
 }
 
+.png-icon{
+	margin-left: 35%;
+}
 
 
 /*------------------Business section starts-------------------------------*/
@@ -190,7 +193,7 @@ li{
 
 
 #busy-row-two{
-	margin-top: 3rem;
+	margin-top: 1rem;
 }
 
 
@@ -446,6 +449,13 @@ a:hover {
 .email-us-section{
 	height: 50vh;
 	background-color: lightcoral;
+}
+
+@media (max-width: 979px) {
+		.email-us-section{
+		height: 43vh;
+		background-color: lightcoral;
+	}
 }
 
 
