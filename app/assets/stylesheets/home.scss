@@ -9,7 +9,7 @@ li{
 
 @media (max-width: 979px) {
 		.background-tintbox{
-		height: 30vh;
+		height: 33vh;
 		width: 100%;
 		background: rgba(0,0,0, 0.5);
 	}
@@ -26,7 +26,7 @@ li{
 
 @media (max-width: 979px) {
 		.background-image-section{
-		height: 30vh;
+		height: 33vh;
 		background-image: url(image-path('rtl_image1.jpg'));
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -60,7 +60,7 @@ li{
 		font-weight: 700;
 		letter-spacing: 2px;
 		position: absolute;
-	    top: 8em;
+	    top: 11em;
 	    left: 50%;
 	    transform: translate(-50%, -50%);
 	}
