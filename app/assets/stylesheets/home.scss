@@ -4,9 +4,16 @@ li{
 .background-tintbox{
 	height: 65vh;
 	width: 100%;
-	background: rgba(0,0,0, 0.5);
+	background: rgba(0,0,0, 0.7);
 }
 
+@media (max-width: 979px) {
+		.background-tintbox{
+		height: 30vh;
+		width: 100%;
+		background: rgba(0,0,0, 0.5);
+	}
+}
 
 .background-image-section{
 	height: 65vh;
@@ -50,11 +57,10 @@ li{
 		color: #fff;
 		font-size: 2em;
 		font-family: 'Segoe UI', sans-serif;
-		font-weight: 300;
+		font-weight: 700;
 		letter-spacing: 2px;
-		word-spacing: 3px;
 		position: absolute;
-	    top: 7em;
+	    top: 8em;
 	    left: 50%;
 	    transform: translate(-50%, -50%);
 	}
@@ -152,6 +158,19 @@ li{
 	background-attachment: fixed;
 } 
 
+
+@media (max-width: 979px) {
+		.business-section{
+		background-image: url(image-path('rtl_image3.jpg'));
+		background-color: #fff;
+		height: 47vh;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		overflow: hidden;
+	} 	
+}
+
 .attention-grabber-section{
 	margin-top: 4rem;
 }
@@ -171,7 +190,7 @@ li{
 
 
 #busy-row-two{
-
+	margin-top: 3rem;
 }
 
 
@@ -198,7 +217,7 @@ li{
 .background-tintbox-business{
 	height: 80vh;
 	width: 100%;
-	background: rgba(0,0,0, 0.6);
+	background: rgba(0,0,0, 0.9);
 }
 
 .key-pic{
@@ -426,7 +445,7 @@ a:hover {
 
 .email-us-section{
 	height: 50vh;
-	background-color: #b0aea9;
+	background-color: lightcoral;
 }
 
 
