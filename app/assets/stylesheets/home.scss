@@ -417,6 +417,9 @@ a:hover {
 }
 
 @media only screen and (max-width : 550px) {
+	ul{
+		padding: 0px;
+	}
 	.team-members li {
 		text-align: center;
 	}
