@@ -169,7 +169,7 @@ li{
 		height: 75vh;
 		background-repeat: no-repeat;
 		background-position: center center;
-		background-size: contain;
+		background-size: cover;
 		overflow: hidden;
 	} 	
 }
@@ -184,7 +184,7 @@ li{
 @media (max-width: 979px) {
 		.icon-line{
 		text-align: center;
-		font-size: 3em;
+		font-size: 4em;
 		color: #fff;
 	}
 
