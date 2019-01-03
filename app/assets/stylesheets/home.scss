@@ -401,9 +401,25 @@ a:hover {
 	top: 0;
 }
 
+@media (max-width: 979px) {
+		.member-details:hover .member-info h3 {
+		top: -11px;
+		font-size: 10px;
+	}
+}
+
 .member-details:hover .member-info p {
 	bottom: 0;
 }
+
+@media (max-width: 979px) {
+		.member-details:hover .member-info p {
+		bottom: 0;
+		display: none !important;
+	}
+
+}
+
 
 /* Team overview */
 .team-overview {
@@ -499,7 +515,7 @@ a:hover {
 @media (max-width: 979px) {
 		.email-us-section{
 		height: 43vh;
-		background-color: lightcoral;
+		background-color: silver;
 	}
 }
 
