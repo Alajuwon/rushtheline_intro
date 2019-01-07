@@ -35,6 +35,8 @@ li{
 	}
 }
 
+
+
 .banner-title{
 	text-align: center;
 	color: #fff;
@@ -114,7 +116,7 @@ li{
 .info-tag{
 	text-align: center;
 	font-size: 18rem;
-	color: #b80720;
+	color: black;
 	font-family: 'Segoe UI', sans-serif;
 	font-weight: 500;
 }
@@ -151,7 +153,7 @@ li{
 .business-section{
 	background-image: url(image-path('rtl_image3.jpg'));
 	background-color: #fff;
-	height: 60vh;
+	height: 50vh;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -189,7 +191,7 @@ li{
 }
 
 #busy-row-one{
-	margin-top: 5rem;
+	margin-top: 10rem;
 }
 
 @media (max-width: 979px) {
@@ -256,7 +258,7 @@ li{
 .background-tintbox-business{
 	height: 80vh;
 	width: 100%;
-	background: rgba(0,0,0, 0.9);
+	background: rgba(0,0,0, 0.7);
 }
 
 .key-pic{
